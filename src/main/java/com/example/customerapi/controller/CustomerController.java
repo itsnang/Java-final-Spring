@@ -32,8 +32,5 @@ public class CustomerController {
         return customerService.getAllCustomers();
     }
 
-//    @PutMapping("/{id}")
-//    public ResponseEntity<Customer> updateCustomer(@PathVariable Long id, @RequestBody Customer customerDetails) {
-//        return ResponseEntity.ok(customerService.updateCustomer(id, customerDetails));
-//    }
+
 }
